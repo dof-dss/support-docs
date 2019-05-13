@@ -3,9 +3,9 @@ host: docs.application-support.finance-ni.gov.uk
 
 # Header-related options
 show_govuk_logo: false
-service_name: DSS Docs Service
+service_name: DSS App Support
 service_link: https://docs.finance-ni.gov.uk
-phase: Beta
+phase: Internal
 
 # Links to show on right-hand-side of header
 header_links:
@@ -32,5 +32,5 @@ max_toc_heading_level: 6
 # Prevent robots from indexing (e.g. whilst in development)
 prevent_indexing: false
 
-show_contribution_banner: true
+show_contribution_banner: false
 github_repo: dof-dss/tech-docs-template
