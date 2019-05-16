@@ -1,17 +1,10 @@
 # Host to use for canonical URL generation (without trailing slash)
-<<<<<<< HEAD
 host: dss-support-docs.london.cloudapps.digital
 
 # Header-related options
 show_govuk_logo: false
 service_name: DSS Support Docs
-=======
-host: support-docs.london.cloudapps.digitl
-
-# Header-related options
-show_govuk_logo: false
-service_name: DSS App Support
->>>>>>> 04fdf0d02763c54b8ad512d77d3698b9fe1b1468
+host: dss-support-docs.london.cloudapps.digitl
 service_link: /
 phase: Internal
 
