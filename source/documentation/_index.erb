@@ -1,0 +1,141 @@
+# DSS Application Support
+
+## Definition
+
+This document describes the support service Digital Shared Services provides to its customers for applications developed by in-house teams.
+
+It is useful to clearly define a few terms before defining exactly what is meant by *application support*.
+
+### Maintenance
+
+Maintenance is defined as the effort associated with fixing defects in a software system after it has gone into live running (production). These defects may have been known before the application goes into production or discovered after the application has gone into production.
+
+### Enhancements
+
+Enhancements, also know as change requests or feature requests, are defined as the effort associated with adding new capability to a software system, or modifying a software system to meet newly defined non-functional requirements.
+
+### Service requests
+
+Service requests are simple repeatable tasks that are carried out by technical staff on behalf of users of the application because the application does not provide that function to the user.
+
+### Support
+
+Support is defined as the sum of the maintenance, enhancements and service request efforts after the application has gone into production.
+
+## Scope
+
+Support is defined as a range of services provided to the customer that relate directly to the application or system. Support consists of the following services:
+
+- Incident response - general
+- Incident response - security
+- Data import / export
+- Delete data
+- Access request
+- Backup & restore of data
+- Patch and upgrade infrastructure
+- Decommission application or service
+- Request for advice
+- Change request
+- New feature request
+
+The ability of DSS to provide support for existing applications is dependent upon the technologies used in those applications. Historically speaking, the NICS has developed applications using a Microsoft based technology stack. Consequently applications constructed with other technology stacks cannot be supported.
+
+In addition, even if the application uses a Microsoft technology stack, we will be limited by the age and supportability of the elements of the stack. Our [Technology Roadmap](#technology-roadmap) is provided below.
+
+## Support Levels
+
+The level of support provided depends upon the age of the application or system and falls into three categories:
+
+- Full support (years 1 to 5)
+- Extended support (years 6-7)
+- Out of support (year 8+)
+
+The services provided at each support level are shown below.
+
+| Service | Full support | Extended support | Out of support |
+| ------- | ------------ | ---------------- | -------------- |
+| Incident response (general) | Available | Best endeavours<sup>1</sup> | Not available |
+| Incident response (security) | Available | Best endeavours<sup>1</sup> | Not available |
+| Data import/export | Available | Available | Best endeavours<sup>2</sup> |
+| Delete data | Available | Available | Best endeavours<sup>2</sup> |
+| Access requests | Available | Available | Best endeavours<sup>2</sup> |
+| Backup & restore | Available | Available | Best endeavours<sup>2</sup> |
+| Patch and upgrade infrastructure | Available | Available | Best endeavours<sup>2</sup> |
+| Decommission system | Available | Available | Best endeavours<sup>2</sup> |
+| Request for advice | Available | Available | Available |
+| Change request<sup>3</sup> | Available | Not available | Not available |
+| New feature request<sup>3</sup> | Available | Not available | Not available |
+
+1. Best endeavours is limited to 5 days. The effort involved in completing the work myst be understood and sized within 1 day.
+2. Best endeavours work is chargeable when out of support.
+3. Change and new feature requests are chargeable.
+
+## Roles and Responsibilities
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+## Costs
+
+The costs associated with supporting an application are attributable to the three elements described above, i.e.
+
+- maintenance
+- enhancements
+- service requests
+
+The amount of maintenance is directly proportional to the amount of code written i.e. the bigger the system the more it will cost to support. A changes to a big system as a result of fixing a defect or introducing a change will require a greater effort in retesting to make sure nothing has been broken.
+
+In addition, the introduction of a new application will require changes to the processes and procedures used by first line support staff so that any incident can be correctly routed to the appropriate team for diagnosis and resolution.
+
+DSS currently charges an industry standard of **20% of development costs** for application support. This does not include costs for change requests or feature requests.
+
+## Monitoring and Reporting
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+## Incident Management
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+## Business Continuity Management
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+## Change Management
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+## Prerequisites for on-boarding
+
+In order for DSS to take over support of your application the following prerequisites must be met:
+
+- there is a clearly identified Information Asset Owner (IAO)
+- a Product Owner and Deputy have completed Product Owner training
+- a Data Protection Impact Assessment (DPIA) has been carried out
+- data is classified as Official
+- the technology stack is currently supported
+- details of the system are recorded on the NICS Central Register of Information Systems (CRIS)
+- there is a valid business case
+- all source code and configuration data is available
+- any known defects and workarounds are documented
+
+
+## Technology roadmap
+
+The table below shows the support status of the technologies currently known to DSS that have been used in building applications in the past.
+
+| Technology | Category | Status |
+| ---------- | -------- | ------ |
+| ASP.Net | Current | Supported |
+| SQL | Current | Supported |
+| ASP.Net Web API | Current | Supported |
+| .Net Core | Current | Supported |
+| .Net Core EF | Current | Supported |
+| HTML 5 | Current | Supported |
+| Javascript | Current | Supported |
+| Windows Presentation Foundation (WPF) | Retiring | Supported until Jan 2020 |
+| Windows Communication Foundation (WCF) | Retiring | Supported until Jan 2021 |
+| Web Forms | Retiring | Supported until Jan 2021 |
+| Windows Forms | Legacy | Unsupported |
+| Foxpro | Legacy | Unsupported |
+| Microsoft Access | Legacy | Unsupported |
+| Lotus Notes | Legacy | Unsupported |
