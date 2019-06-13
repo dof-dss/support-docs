@@ -12,4 +12,4 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 #gem 'govuk_tech_docs'
 
 # Use DSSversion of govuk_tech_docs
-gem 'dss_tech_docs'
+gem 'dss_tech_docs', '~> 0.1.2'
